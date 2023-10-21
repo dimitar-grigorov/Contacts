@@ -1,0 +1,11 @@
+resource_group_name     = "MitakContactsRG"
+resource_group_location = "West Europe"
+# Domain
+app_service_plan_name   = "mitak-contacts"
+app_service_name                 = "mitak-contacts"
+sql_server_name                  = "mitakcontacts-sql"
+sql_database_name                = "contacts-db"
+sql_administrator_login_username = "missadministrator"
+sql_administrator_password       = "myStrongPassword12#"
+firewall_rule_name               = "ContactsFirewallRule"
+repo_URL                         = "https://github.com/dimitar-grigorov/Contacts"
